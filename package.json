@@ -1,0 +1,30 @@
+{
+  "name": "bits",
+  "version": "1.0.0",
+  "description": "Bits test",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "cdklocal bootstrap",
+    "deploy": "cdklocal deploy",
+    "destroy": "./scripts/destroy-ls.sh",
+    "stacks": "awslocal cloudformation list-stacks",
+    "resources": "awslocal cloudformation list-stack-resources --stack-name bits-res"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.x.x",
+    "@aws-sdk/client-cognito-identity-provider": "^3.x.x",
+    "@aws-sdk/client-dynamodb": "^3.x.x",
+    "@aws-sdk/lib-dynamodb": "^3.x.x"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.149",
+    "@types/node": "^24.0.0",
+    "aws-cdk-lib": "^2.200.1",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
