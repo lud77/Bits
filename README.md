@@ -93,9 +93,11 @@ npm run deploy
 
 This will also print the stack outputs, which are needed for the rest of the process.
 
-PaymentApiStack.PaymentApiEndpoint = https://...
-PaymentApiStack.UserPoolClientId = ...
-PaymentApiStack.UserPoolId = ...
+`PaymentApiStack.PaymentApiEndpoint = https://...`
+
+`PaymentApiStack.UserPoolClientId = ...`
+
+`PaymentApiStack.UserPoolId = ...`
 
 The <API_ID> can be obtained from the PaymentApiEndpoint
 
