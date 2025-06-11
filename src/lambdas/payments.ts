@@ -48,7 +48,7 @@ export const handler: APIGatewayProxyHandler = async (event) => {
       },
     }));
 
-    return { statusCode: 201, body: 'Payment stored' };
+    return { statusCode: 200, body: 'Payment stored' };
   } catch (err) {
     return { statusCode: 500, body: 'Failed to store payment' };
   }
