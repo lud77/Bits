@@ -15,7 +15,7 @@ The source of the lambda is in the file `src/lambdas/payments.ts`.
 The file `infra/architecture.pdf` is a diagram visualising the architecture.
 
 
-# Architecture
+## Architecture
 
 An Api Gateway instance has a route "/payment" that takes POST requests and forwards them to a `payments` lambda.
 The Api Gateway is authenticated via Cognito User Pools.
