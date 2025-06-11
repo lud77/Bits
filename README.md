@@ -12,7 +12,8 @@ The CDK code is in the file `infra/bin/app.ts`.
 
 The source of the lambda is in the file `src/lambdas/payments.ts`.
 
-The file `infra/architecture.pdf` is a diagram visualising the architecture.
+There is an [Architecture diagram](infra/architecture.pdf) visualising the top level
+design of the system.
 
 
 ## Architecture
