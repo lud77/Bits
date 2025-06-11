@@ -19,7 +19,8 @@ export const handler: APIGatewayProxyHandler = async (event) => {
   let payment;
   try {
     payment = JSON.parse(event.body);
-  } catch {
+  } catch (err) {
+    console.error('Failed to parse JSON', err);
     return { statusCode: 400, body: 'Invalid JSON' };
   }
 
